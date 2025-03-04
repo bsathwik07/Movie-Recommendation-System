@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemate - Movie Recommendation</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cinemate</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" id="homeLink">Home</a></li>
+                    <li><a href="#" id="recommendationsLink">Recommendations</a></li>
+                    <li><a href="#" id="friendsSuggestionsLink">Friend's Suggestions</a></li>
+                    <li><a href="#" id="aboutLink">About</a></li>
+                    <li><button id="themeToggleBtn">Switch to Dark Mode</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h2>Welcome to Cinemate</h2>
+            <p>Your personalized movie recommendation system!</p>
+            <button id="getStartedBtn">Get Started</button>
+        </section>
+
+        <section id="movieRecommendations" class="hidden">
+            <h2>Recommended Movies for You</h2>
+            <div class="movie-list">
+                <!-- Manually added movies for now -->
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=Inception" alt="Inception">
+                    <h4>Inception</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=The+Dark+Knight" alt="The Dark Knight">
+                    <h4>The Dark Knight</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=Interstellar" alt="Interstellar">
+                    <h4>Interstellar</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=The+Matrix" alt="The Matrix">
+                    <h4>The Matrix</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=Avatar" alt="Avatar">
+                    <h4>Avatar</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=Titanic" alt="Titanic">
+                    <h4>Titanic</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=The+Godfather" alt="The Godfather">
+                    <h4>The Godfather</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=The+Shawshank+Redemption" alt="The Shawshank Redemption">
+                    <h4>The Shawshank Redemption</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=Forrest+Gump" alt="Forrest Gump">
+                    <h4>Forrest Gump</h4>
+                </div>
+                <div class="movie-item">
+                    <img src="https://via.placeholder.com/200x300?text=The+Lion+King" alt="The Lion King">
+                    <h4>The Lion King</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="friendsRecommendations" class="hidden">
+            <h2>Friend's Movie Suggestions</h2>
+            <div class="friend-suggestions">
+                <!-- Manually added friends for now -->
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/200x300?text=John" alt="John">
+                    <h4>John</h4>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/200x300?text=Alice" alt="Alice">
+                    <h4>Alice</h4>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/200x300?text=Bob" alt="Bob">
+                    <h4>Bob</h4>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="basic.js"></script>
+</body>
+</html>
